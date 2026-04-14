@@ -7,6 +7,13 @@ OctoAcme follows a lightweight, iterative lifecycle that starts with a focused I
 
 Execution relies on a steady team rhythm (daily standups, weekly delivery syncs, timeboxed planning and demos), a project board workflow (Backlog → Ready → In Progress → In Review → QA → Done), and PR/CI quality gates (small PRs, linked acceptance criteria, automated tests and security scans, and required reviews). Releases follow checklist-driven pipelines with staging smoke tests, release notes, rollback plans, and post-deploy verification. After milestones and incidents we run blameless retrospectives and convert action items into tracked backlog work to continuously improve.
 
+## Templates and checklists
+To standardize delivery and QA, this repo includes templates:
+- docs/templates/release-checklist.md
+- docs/templates/qa-checklist.md
+
+Use these templates as starting points during planning, sprint sign-off, and release preparation. Copy or adapt them per-project and add owner names and dates.
+
 ## Docs index
 - [Project Management Overview](docs/octoacme-project-management-overview.md)
 - [Project Initiation Guide](docs/octoacme-project-initiation.md)
@@ -16,6 +23,8 @@ Execution relies on a steady team rhythm (daily standups, weekly delivery syncs,
 - [Release & Deployment Guide](docs/octoacme-release-and-deployment.md)
 - [Retrospective & Continuous Improvement](docs/octoacme-retrospective-and-continuous-improvement.md)
 - [Roles & Personas](docs/octoacme-roles-and-personas.md)
+- [Templates: release & qa](docs/templates/release-checklist.md) — (new)
+- [Templates: qa checklist](docs/templates/qa-checklist.md) — (new)
 
 ## How to use this repo
 - Use the project one‑pager and templates in the docs to kick off new work.
